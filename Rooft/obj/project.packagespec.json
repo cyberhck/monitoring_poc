@@ -1,0 +1,94 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/nishchal/git/cyberhck/Rooft/Rooft/Rooft.csproj",
+    "projectName": "Rooft",
+    "projectPath": "/home/nishchal/git/cyberhck/Rooft/Rooft/Rooft.csproj",
+    "outputPath": "/home/nishchal/git/cyberhck/Rooft/Rooft/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "App.Metrics": {
+          "target": "Package",
+          "version": "[3.1.0-alpha-0796, )"
+        },
+        "App.Metrics.AspNetCore": {
+          "target": "Package",
+          "version": "[3.1.0-alpha-0114, )"
+        },
+        "App.Metrics.AspNetCore.Endpoints": {
+          "target": "Package",
+          "version": "[3.1.0-alpha-0114, )"
+        },
+        "App.Metrics.AspNetCore.Health.Endpoints": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "App.Metrics.AspNetCore.Reporting": {
+          "target": "Package",
+          "version": "[3.1.0-alpha-0114, )"
+        },
+        "App.Metrics.AspNetCore.Tracking": {
+          "target": "Package",
+          "version": "[3.1.0-alpha-0114, )"
+        },
+        "App.Metrics.Formatters.InfluxDB": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "App.Metrics.Formatters.Prometheus": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "App.Metrics.Reporting.InfluxDB": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "NSwag.AspNetCore": {
+          "target": "Package",
+          "version": "[12.0.13, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
